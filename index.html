@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./style.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Canvas画板</title>
+</head>
+<body>
+  <canvas id="xxx" width=300 height=300></canvas>
+  <div id=actions class="actions">
+      <svg class="active icon" id="pen">
+          <use xlink:href="#icon-pen"></use>
+      </svg>
+      <svg class="icon" id="eraser">
+          <use xlink:href="#icon-ico-erasertool-May"></use>
+      </svg>
+      <svg class="icon" id="clear">
+          <use xlink:href="#icon-clear"></use>
+      </svg>
+      <svg class="icon" id="save">
+          <use xlink:href="#icon-baocun"></use>
+      </svg>
+  </div>
+  <ol class="colors">
+    <li class="black active" id="black"></li>
+    <li class="red" id="red"></li>
+    <li class="green" id="green"></li>
+    <li class="bule" id="bule"></li>
+  </ol>
+  <ol class="sizes">粗细：
+    <li class="thin" id="thin"></li>
+    <li class="thick" id="thick"></li>
+  </ol>
+<script src="http://at.alicdn.com/t/font_657889_2d3xzper0pt1q0k9.js"></script>
+<script src="./main.js"></script>
+</body>
+
+</html>
